@@ -2,6 +2,10 @@
 
 A Bash-based utility for archiving log directories into compressed `.tar.gz` files. It provides input validation, archive integrity verification, restrictive file permissions, execution logging, and automated scheduling through Cron.
 
+## Project Page
+
+Project URL: https://roadmap.sh/projects/log-archive-tool
+
 ## Features
 
 - Accepts a log directory as a command-line argument.
@@ -115,7 +119,7 @@ A daily Cron job is configured to run the archive script at 23:00. Manual execut
 
 The project uses sample log files in a lab environment. Original source files are preserved and are not deleted after archiving.
 
-## Roadmap.sh Project
+## License
 
-Project URL: https://roadmap.sh/projects/log-archive-tool
-
+This project is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
